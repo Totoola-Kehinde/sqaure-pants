@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/carousel.css">
+
+    <style>
+        .bd-placeholder-img {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          user-select: none;
+        }
+  
+        @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+          }
+        }
+      </style>
+      <link rel="stylesheet" href="css/base.css">
+    <title>Teens Can Code</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Teens Can Code</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                  <a class="nav-link active navlink" aria-current="page" href="/index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle navlink" href="/about.html" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                      <li><a class="dropdown-item navlink" href="/about.html">About Us</a></li>
+                      <li><a class="dropdown-item navlink" href="/whoweare.html">Who We Are</a></li>
+                      <li><a class="dropdown-item navlink" href="/manifesto.html">Manifesto</a></li>
+                      <li><a class="dropdown-item navlink" href="/whatwedo.html">What We Do</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle navlink" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Programs</a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                      <li><a class="dropdown-item" href="/gogirls.html">Go Girls</a></li>
+                      <li><a class="dropdown-item navlink" href="/geeknation.html">Geek Nation</a></li>
+                      <li><a class="dropdown-item navlink" href="/codeatschool.html">Code@School</a></li>
+                      <li><a class="dropdown-item navlink" href="/mathwire.html">MathWire</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Initiative</a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                      <li><a class="dropdown-item" href="/ourwork.html">Our Work</a></li>
+                      <li><a class="dropdown-item" href="/conference.html">Conference</a></li>
+                      
+                      <li><a class="dropdown-item" href="/virtuallysafe.html">Virtually Safe</a></li>
+                      <li><a class="dropdown-item" href="/zoomlearn.html">Zoom Learn</a></li>
+                      <li><a class="dropdown-item" href="/klevaly.html">Klevaly</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle navlink" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">CS Education</a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                      <li><a class="dropdown-item navlink" href="/robotics.html">Robotics</a></li>
+                      <li><a class="dropdown-item navlink" href="/curricullum.html">Curriculum</a></li>
+                      <li><a class="dropdown-item navlink" href="/vreducation.html">VR Education</a></li>
+                      <li><a class="dropdown-item navlink" href="/hometutoring.html">Home Tutoring</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle navlink" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Get Involved</a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                      <li><a class="dropdown-item navlink" href="/volunteer.html">Volunteer</a></li>
+                      <li><a class="dropdown-item navlink" href="/donate.html">Donate Now</a></li>
+                      <li><a class="dropdown-item navlink" href="/hireatalent.html">Hire A Talent</a></li>
+                      <li><a class="dropdown-item navlink" href="/join.html">Join Now</a></li>
+                    </ul>
+                  </li>
+                <!-- <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link navlink" aria-current="page" href="/testimonials.html">Testimonials</a>
+                  </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <!-- Navigation -->
+
+      <!-- Slider -->
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> -->
+            <img src="img/gogirls2.jpg" alt="Go Girls Coding" class="bd-placeholder-img" width="100%" height="100%">
+    
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <p>INSPIRE A CHILD</p>
+                <h1>CODING CAN CHANGE OUR WORLD</h1>
+                <h6>If we are going to solve tomorrow's national challenges, we must come together today to inspire young people everywhere with the promise of technology.</h6>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> -->
+            <img src="img/classes-2.jpg" alt="Go Girls Coding" class="bd-placeholder-img" width="100%" height="100%">
+    
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Another example headline.</h1>
+                <p>Some representative placeholder content for the second slide of the carousel.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- Content: Main Activities  -->
+
+      <div class="container">
+          <div class="text-center" style="color: tomato;">Future Focused Activities</div>
+          <div class="display-4 text-center" style="color: rgb(23, 0, 58);">
+              Our Main Activities
+          </div>
+          <div class="text-center p">We seek to ensure that people of all ages in Africa,
+            especially those with fewer resources can access the opportunities they need in life to succeed.</div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-3 corebox"  style="background: rgb(81, 161, 236); box-shadow: 0px 13px 0px rgba(0, 132, 255, 0.9)">
+                    
+                    <img src="img/classes-5.jpg" alt="Students" class="dotted" class="bd-placeholder-img rounded-circle" width="140" height="140">
+
+                    <div class="text-center h6 mt-5 text-light">Conference</div>
+                    <p class="text-center mt-4 text-light">We organise the biggest technology conferences for secondary school students and out of school teens.</p>
+                </div>
+                <div class="col-lg-3 corebox"  style="background:rgb(226, 226, 0); box-shadow: 0px 13px 0px rgba(214, 172, 36, 0.9)">
+                    
+                    <img src="img/classes-5.jpg" alt="Students" class="dotted" class="bd-placeholder-img rounded-circle" width="140" height="140">
+
+                    <div class="text-center h6 mt-5 text-light">Virtually Safe</div>
+                    <p class="text-center mt-4 text-light">We are committed to educating users of technology especially young people about online safety.</p>
+                </div>
+                <div class="col-lg-3 corebox"  style="background: rgb(236, 55, 116); box-shadow: 0px 13px 0px rgba(199, 33, 88, 0.9)">
+                    
+                    <img src="img/classes-5.jpg" alt="Students" class="dotted" class="bd-placeholder-img rounded-circle" width="140" height="140">
+
+                    <div class="text-center h6 mt-5 text-light">Code Mobile</div>
+                    <p class="text-center mt-4 text-light">We repurpose buses and containers into mobile technology labs to reach people in remote communities.</p>
+                </div>
+                <div class="col-lg-3 corebox"  style="background: rgb(152, 224, 110); box-shadow: 0px 13px 0px rgba(110, 163, 80, 0.9)">
+                    
+                    <img src="img/classes-5.jpg" alt="Students" class="dotted" class="bd-placeholder-img rounded-circle" width="140" height="140">
+
+                    <div class="text-center h6 mt-5 text-light">Impact Inventing</div>
+                    <p class="text-center mt-4 text-light">We’re focused on maximum social impact. Helping our students identify and create solutions that address social problem.</p>
+                </div>
+                </div>
+            </div>
+      </div>
+
+      <div class="container">
+      <div class="row mt-5">
+          <div class="col-lg-10">
+              <div class="h5">Want to Volunteer at Teens Can Code?</div>
+              <div class="p">At Teens Can Code, we are taking on the big challenges. We welcome you to join us in this effort by becoming a part of our volunteer family.</div>
+          </div>
+          <div class="col-lg-2 align-items-center d-flex">
+              <button type="button" class="btn btn-primary">Join Now</button>
+          </div>
+      </div>
+      </div>
+
+      <div style="background: rgb(255, 248, 233);">
+      <div class="container">
+          <div class="row mt-5">
+              <div class="col-lg-6">
+                  <img src="img/image-left-home.png" alt="left home" class="img-fluid">
+              </div>
+              <div class="col-lg-6">
+                  <div class="row mt-5">
+                      <div class="display-4">From Consumers to Technology Creators</div>
+                      <div class="p mt-3">In the old model of education, the job of schools was to teach students everything they needed to know for life and work. In a rapidly changing world, this is no longer sufficient. Today, students must acquire knowledge, competencies and mindsets that prepare them to be productive members of a modern workforce in a global economy powered technology.</div>
+                  </div>
+                  <div class="row mt-5">
+                      <div class="col-lg-6">
+                        <div class="display-4">Our Vision</div>
+                        <div class="p mt-3">As society is becoming increasingly digital and interconnected and technological transformation also growing at an accelerated pace.</div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="display-4">Mission</div>
+                        <div class="p mt-3">Our mission is to provide access to technology  opportunities for young people in Africa,through problem solving and coding.</div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
+
+      <!-- Content: Main Activities  -->
+
+      <div class="container mt-5">
+        <div class="text-center" style="color: tomato;">Who We Are</div>
+        <div class="display-4 text-center" style="color: rgb(23, 0, 58);">
+            Our Core Values
+        </div>
+        <div class="text-center p">Our values serves as a compass for our work at Teens Can Code and how we<br> implement them to achieve our organisational goal.</div>
+          <div class="row d-flex justify-content-center mt-5">
+              <div class="col-lg-5">
+                  <div class="row">
+                      <div class="col-lg-10">
+                    <div class="text-end">
+                        <div class="h3">Communication</div>
+                        <div class="p">We maintain effective communication with all stakeholders.</div>
+                    </div>
+                      </div>
+                      <div class="col-lg-2 d-flex justify-content-center">
+                        <div class="icon-3rd" style="background: rgb(0, 132, 255);"><i style="right: 17px;" class="fa fa-commenting"></i></div>
+                      </div>
+                    </div>
+
+                  <div class="row  mt-3">
+                      <div class="col-lg-10">
+                    <div class="text-end">
+                    <div class="h3">Partnership</div>
+                    <div class="p">We support and encourage growth and development from every angle.</div>
+                    </div>
+                </div>
+                    <div class="col-lg-2 d-flex justify-content-center">
+                    <div class="icon-3rd" style="background: rgb(214, 172, 36);"><i style="right: 13px;" class="fa fa-handshake-o"></i></div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-lg-2 d-flex justify-content-center">
+                <img src="img/child-man.png" alt="" class="img-fluid">
+              </div>
+              <div class="col-lg-5">
+                <div class="row">
+                    <div class="col-lg-2 d-flex justify-content-center">
+                        <div class="icon-3rd" style="background: rgb(199, 33, 88);"><i style="right: 24px;" class="fa fa-tint"></i></div>
+                        </div>
+                        <div class="col-lg-10">
+                    <div class="text-start">
+                        <div class="h3">Excellence</div>
+                        <div class="p">What we do, we do it well, We set and achieve aggressive goals.</div>    
+                    </div>
+                    </div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-lg-2 d-flex justify-content-center">
+                        <div class="icon-3rd" style="background: rgb(110, 163, 80);"><i style="right: 20px;" class="fa fa-crosshairs"></i></div>
+                        </div>
+                      <div class="col-lg-10">
+                    <div class="text-start">
+                    <div class="h3">Passion and Play</div>
+                    <div class="p">We enjoy what we do and we do it in a fun and exciting environment.</div>
+                    </div>
+                    </div>
+                  </div>
+              </div>
+              </div>
+          </div>
+    </div>
+
+    <!-- Frequently Asked Questions -->
+        <div class="row mt-5">
+            <div class="col-lg-6" style="background-color: #074e4e;">
+                <div class="container">
+                    <div class="h4 mt-3" style="color: tomato; font-family: cursive;">Frequently Asked Questions</div>
+                    <div class="display-5 text-light" style="color: rgb(23, 0, 58);">
+                        Teaching, Inspiring and Empowering!
+                    </div>
+                    <div class="p text-light mt-3">Today, students must acquire knowledge, competence, and mindset that prepares them to be productive members of a modern workforce in a global economy powered by technology.</div>
+
+                    <div id="accordion" class="mt-3">
+                        <div class="card">
+                          <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Collapsible Group Item #1
+                              </button>
+                            </h5>
+                          </div>
+                      
+                          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="card-body">
+                              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Collapsible Group Item #2
+                              </button>
+                            </h5>
+                          </div>
+                          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Collapsible Group Item #3
+                              </button>
+                            </h5>
+                          </div>
+                          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                            <div class="card-body">
+                              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="col-lg-6 img-fluid" style="background-image: url('img/gallery-5-745x600.jpg');">
+
+            </div>
+        </div>
+
+        <!-- Counter -->
+
+        <div class="container">
+            <div class="row">
+                
+            </div>
+        </div>
+
+        <!-- Content: Volunteers  -->
+
+      <div class="container mt-5">
+        <div class="text-center" style="color: tomato;">The Real MVPs</div>
+        <div class="display-4 text-center" style="color: rgb(23, 0, 58);">
+            Our Volunteers
+        </div>
+        <div class="text-center p"  style="font-weight: lighter; color: rgb(37, 18, 66);">Our work is made possible by the commitment and contribution of individuals<br> who give their time and relentless efforts to help achieve our goals.</div>
+          <div class="row d-flex justify-content-center mt-5">
+
+                <div class="teacher-box col-lg-4">
+                    <img src="img/team-1.jpg" alt="" class="img-fluid">
+                    <h1>Oluwaseun Afolayan</h1>
+                    <h3>Developer Coach</h3>
+                   <div class="t-social">
+                       <a><i href="" class="fa fa-facebook"></i></a>
+                       <a><i href="" class="fa fa-twitter"></i></a>
+                       <a><i href="" class="fa fa-linkedin"></i></a>
+                       <a><i href="" class="fa fa-instagram"></i></a>
+                   </div>
+                </div>
+        
+                <div class="teacher-box col-lg-4">
+                    <img src="img/team-2.jpg" alt="" class="img-fluid">
+                    <h1>Kehinde Totoola</h1>
+                    <h3>Developer Coach</h3>
+                    <div class="t-social">
+                        <a><i href="" class="fa fa-facebook"></i></a>
+                        <a><i href="" class="fa fa-twitter"></i></a>
+                        <a><i href="" class="fa fa-linkedin"></i></a>
+                        <a><i href="" class="fa fa-instagram"></i></a>
+                    </div>
+                </div>
+        
+                <div class="teacher-box col-lg-4">
+                    <img src="img/team-3.jpg" alt="" class="img-fluid">
+                    <h1>Sophiyat Sadiq</h1>
+                    <h3>Developer Coach</h3>
+                    <div class="t-social">
+                        <a><i href="" class="fa fa-facebook"></i></a>
+                        <a><i href="" class="fa fa-twitter"></i></a>
+                        <a><i href="" class="fa fa-linkedin"></i></a>
+                        <a><i href="" class="fa fa-instagram"></i></a>
+                    </div>
+                </div>
+        </div>
+        </div>
+
+        <!-- Counter -->
+      <div class="container">
+        <div class="row mt-5">
+            <div class="four col-md-3">
+                <div class="counter-box colored"> <i class="fa fa-crosshairs"></i> <span class="counter">6000</span>
+                    <p>Our Reach</p>
+                </div>
+            </div>
+            <div class="four col-md-3">
+                <div class="counter-box"> <i class="fa fa-bus"></i> <span class="counter">100</span>
+                    <p>Commuinities Adopted</p>
+                </div>
+            </div>
+            <div class="four col-md-3">
+                <div class="counter-box"> <i class="fa fa-users"></i> <span class="counter">1000</span>
+                    <p>Young People</p>
+                </div>
+            </div>
+            <div class="four col-md-3">
+                <div class="counter-box"> <i class="fa fa-user"></i> <span class="counter">100</span>
+                    <p>Volunteers</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Content: Support -->
+        <div  style="background-color: #44a5a5b7; height: auto;">
+        <div class="container-fluid mt-5">
+          <div class="row">
+            <div class="col-lg-10">
+              <div class="display-4 text-light mt-3">We Value And Encourage Your Support</div>
+            </div>
+            <div class="col-lg-2 d-flex align-items-center">
+              <button type="button" class="btn mt-5 mb-5 bg-light text-dark" style="height: 80%; width: 60%;"><p class="h5">Donate Now</p></button>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <!-- Content: Testimonials  -->
+
+      <div class="container mt-5">
+        <div class="text-center" style="color: tomato;">WHAT DO PARENTS SAY ABOUT US</div>
+        <div class="display-4 text-center" style="color: rgb(23, 0, 58);">
+            Testimonials
+        </div>
+        <div class="text-center p"  style="font-weight: lighter; color: rgb(37, 18, 66);">Hear what some of our beneficiaries have to say about uscheck out testimonial  <br>page to see more of our outcomes.</div>
+          <div class="row d-flex justify-content-center mt-5">
+
+              <div class="box-test col-lg-4">
+                  <div class="test-boxy">
+                      <img src="img/testi-5.jpg" alt="" class="img-fluid">
+                      <h2>Tine Jensen</h2>
+                      <i class="fa fa-quote-right"></i>
+                  </div>
+                  <div class="box-testimonial">
+                       <p>
+                          I had both my kids here, and loved it. Made it easy for us to meet a lot of amazing parents and kids. The school has such a home feel, and values a play based routine. It would be worth your time to visit this places.
+                       </p>
+                  </div>
+              </div>
+          
+              <div class="box-test col-lg-4">
+                  <div class="test-boxy">
+                      <img src="img/testi-6.jpg" alt="" class="img-fluid">
+                      <h2>Rebecca Higgins</h2>
+                      <i class="fa fa-quote-right"></i>
+                  </div>
+                  <div class="box-testimonial">
+                       <p>
+                          I had both my kids here, and loved it. Made it easy for us to meet a lot of amazing parents and kids. The school has such a home feel, and values a play based routine. It would be worth your time to visit this places.
+                       </p>
+                  </div>
+              </div>
+        
+               
+        </div>
+        </div>
+
+
+        <!-- Content: Gallery  -->
+
+      <div class="container mt-5">
+        <div class="text-center" style="color: tomato;">Explore TeensCanCode</div>
+        <div class="display-4 text-center" style="color: rgb(23, 0, 58);">
+            Gallery
+        </div>
+        <div class="text-center p"  style="font-weight: lighter; color: rgb(37, 18, 66);">Hear what some of our beneficiaries have to say about uscheck out testimonial  <br>page to see more of our outcomes.</div>
+          <div class="row d-flex justify-content-center mt-5">
+               <div class="col-lg-4">
+                 <img src="img/gallery-1-745x600.jpg" alt="" class="img-fluid">
+               </div>
+               <div class="col-lg-4">
+                <img src="img/gallery-2-745x600.jpg" alt="" class="img-fluid">
+               </div>
+               <div class="col-lg-4">
+                <img src="img/gallery-3-745x600.jpg" alt="" class="img-fluid">
+               </div>
+        </div>
+          <div class="row d-flex justify-content-center mt-5">
+            <div class="col-lg-4">
+              <img src="img/gallery-4-745x600.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg-4">
+             <img src="img/gallery-5-745x600.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg-4">
+             <img src="img/gallery-1-745x600.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+        </div>
+
+        <!-- Footer -->
+
+        <div class="container-fluid mt-5" style="background-color: #44a5a5;">
+          <div class="row">
+            <div class="col-lg-4 mt-3">
+              <div class="footer-box">
+                <div class="footer1">
+                    <img src="img/logo-teenscancode.png" alt="" class="img-fluid">
+                    <p class="text-light">Teens Can Code is building fun, rigorous, and collaborative programming classes for students ages 11-22years.</p>
+                     <br>
+                    <p class="text-light">Our mission is to provide computer programming training to students and equip them with skills to be creators in the digital economy.</p>
+                    <div class="social-foot">
+                        <a href=""><i class="fa fa-facebook"></i></a>
+                        <a href=""><i class="fa fa-instagram"></i></a>
+                        <a href=""><i class="fa fa-twitter"></i></a>
+                        <a href=""><i class="fa fa-linkedin"></i></a>
+                        <a href=""><i class="fa fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="col-lg-2 text-light mt-3">
+              <h2 class="footh2">Contact Us</h2>
+              <span><i class="fa fa-phone"></i> 70 350 159 45</span><br>
+              <span><i class="fa fa-envelope"></i> teenscancode@gmail</span><br>
+              <span><i class="fa fa-map-marker"></i> Lagos, Nigeria</span><br>
+              <span><i class="fa fa-phone"></i> 70 350 159 45</span><br>
+            </div>
+            <div class="col-lg-2 text-light mt-3">
+              <h2 class="footh2">Activities</h2>
+             <span><i class="fa fa-caret-right"></i> CODE@HOME</span><br>
+             <span><i class="fa fa-caret-right"></i> CODE@SCHOOL</span><br>
+             <span><i class="fa fa-caret-right"></i> ACADEMY</span><br>
+             <span><i class="fa fa-caret-right"></i> GEEK NATION</span><br>
+             <span><i class="fa fa-caret-right"></i> GO-GIRLS</span><br>
+             <span><i class="fa fa-caret-right"></i> MATHWIRE</span><br>
+            </div>
+            <div class="col-lg-4 text-light">
+              <h2 class="footh2">Newsletter</h2>
+            <p>Subscribe to our Newsletter right now to be updated.</p>
+            <input type="text" class="news" placeholder="Email US"><br><br>
+            <button><a href="">Suscribe</a></button>
+            </div>
+          </div>
+          </div>
+          </div>
+
+          <!-- Footnote -->
+          <div class="container">
+            <div class="p text-center">
+              &copy; Copyright 2020 | All Rights Reserved | Powered by Teens Can Code
+            </div>
+          </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script>
+        $('.collapse').collapse()
+    </script>
+    <script src="js/counter.js"></script>
+</body>
+</html>
