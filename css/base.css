@@ -191,10 +191,8 @@ nav ul li a{
 
 .box-test{
     background: white;
-    width: auto;
-    height: 280px;
     border-radius: 20px;
-    /* box-shadow: 2px 5px 10px  rgb(228, 227, 227); */
+    box-shadow: 2px 5px 10px  rgb(228, 227, 227);
 }
 
 .test-boxy{
